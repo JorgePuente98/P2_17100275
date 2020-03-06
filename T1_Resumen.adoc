@@ -1,0 +1,7 @@
+:icons: font 
+=== Jorge Alberto Puente Sánchez - 17100275  +
+=== Programación web +
+== Resumen en Asciidoc +
+___ 
+[blue]#Examen aprobado# +
+[big yellow green-background]#_Probando_ la sintaxis de *asciidoc*#
