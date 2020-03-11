@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Formulario simple</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+<div class="ContenedorPadre">
+	<ul>
+	<li id="opc1" class="opcion"><a href="#opc1"><i class="camara"></i>Inicio</a>
+		<ul>
+			<li class="subOpcion">Opcion 1-1</li>
+			<li class="subOpcion">Opcion 1-2</li>
+			<li class="subOpcion">Opcion 1-3</li>
+		</ul>
+	</li>
+	<li id="opc2" class="opcion"><a href="#opc2">Pedidos</a>
+		<ul>
+			<li class="subOpcion">Opcion 2-1</li>
+			<li class="subOpcion">Opcion 2-2</li>
+			<li class="subOpcion">Opcion 2-3</li>
+		</ul>
+	</li>
+	<li id="opc3" class="opcion"><a href="#opc3">Contacto</a>
+		<ul>
+			<li class="subOpcion">Opcion 3-1</li>
+			<li class="subOpcion">Opcion 3-2</li>
+			<li class="subOpcion">Opcion 3-3</li>
+		</ul>
+	</li>
+	</ul>
+</div>
+<div id="container" style="padding-left: 30%;">
+    <form method="POST" action="#">
+
+        <label>Ingrese nombre pedido:</label>
+        <input type="text" name="nombre" size="30"><br>
+
+        <label>Ingrese cantidad:</label>
+		<input type="text" name="cantidad" size="30"><br>
+		
+		<label>Ingrese cliente:</label>
+		<input type="text" name="cantidad" size="30"><br>
+		<label>Ingrese dirección:</label>
+		<input type="text" name="cantidad" size="30"><br>
+		
+        <button onclick="myFunction()">Agregar</button>
+<script>
+function myFunction() {
+  alert("Datos capturados");
+}
+</script>
+    </form>
+</div>
+</body>
+</html>
