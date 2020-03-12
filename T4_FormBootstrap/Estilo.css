@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(255, 255, 87);
+}
+
+.PadreFormulario{
+    margin-left: 8%;
+    margin-top: 8%;
+    width: 80%;
+    position: relative;
+    
+    border-radius: 4px;
+}
+
+.ContenedorTitulo{
+    top: 0px;
+    color: black;
+}
