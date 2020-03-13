@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Form Responsive
+        </title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-theme.css">
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-dark bg-primary">
+            <a class="navbar-brand" href="#!" style="color: white;">Formulario Responsive</a>
+          </nav>
+        <div class="container">
+            <h3>Jorge Alberto Puente Sánchez - 17100275</h3><br>
+            <h4>Programación Web</h4>
+        </div><br><br>
+        <div class="container-fluid">
+            <form action="" method="post">
+                <div class="form-group row">
+                  <label for="NombreProducto" class="col-sm-2 col-form-label">Nombre del producto</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="NombreProducto" placeholder="Nombre del producto">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="PrecioProducto" class="col-sm-2 col-form-label">Precio del producto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="PrecioProducto" placeholder="Precio del producto">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="DescripcionProducto" class="col-sm-2 col-form-label">Descripción del producto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="DescripcionProducto" placeholder="Descripción del producto">
+                    </div>
+                  </div>
+                <div class="form-group row">
+                  <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary" onclick="AlertaMensaje()">Confirmar</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+       
+        <script>
+            function AlertaMensaje() {
+              alert("Oh, oh, aún sigue sin funcionar:d");
+            }
+            </script>
+    </body>
+</html>
